@@ -1,0 +1,166 @@
+body{
+    margin:0px;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 160px;
+    margin:0px;
+    border:0px;
+
+}
+.header p{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin:0px;
+    gap:20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.intro{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding:100px;
+}
+
+.intro img{
+    width: 400px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.about{
+    padding: 0px 60px;
+}
+
+#h1 {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin:0px;
+    padding: 0px;
+}
+
+#p1 {
+    margin:0px;
+    padding: 0px;
+    color:#F9FAF8;
+}
+.intro button{
+    background-color:#3882F6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    padding: 5px 20px;
+    margin:  5px 0px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 100px;
+    padding-bottom: 60px;
+}
+.cards{
+    display: flex;
+    align-items: baseline;
+    gap:10px
+    
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6 3px;
+    border-radius: 10%;
+    padding: 0;
+    margin: 0px;
+}
+.card p{
+    color: gray;
+    font-size: 18px ;
+    padding: 0%;
+    margin:0;
+    text-align: center;
+}
+.info h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.quote{
+    background-color:#E5E7EB ;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    align-items: end;
+}
+
+#quo{
+    font-size: 36px;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+#credit{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.call-card{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 70px 100px;
+    border-radius:10px;
+    border: none;
+    justify-content: space-around;
+}
+
+.call-text h3 {
+    color: white;
+    margin-top:40px;
+    margin-bottom:0px
+}
+.call-text p{
+    margin-top: 0px;
+    color: white;
+    margin-bottom: 40px;
+}
+#b {
+    border: solid white;
+    background-color: #3882F6;
+    color:white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding: 30px;
+    font-weight: 100;
+}
